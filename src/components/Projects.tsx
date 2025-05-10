@@ -31,25 +31,25 @@ const Projects: React.FC = () => {
 
   const projects = [
     {
-      title: "E-commerce Platform",
-      description: "A fully featured e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, product listings, shopping cart, and payment integration.",
-      technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
+      title: "Full Stack E-commerce Platform",
+      description: "A comprehensive e-commerce solution with user authentication, product listings, shopping cart, and payment integration using React, Node.js, and AWS services.",
+      technologies: ["React", "Node.js", "AWS", "MySQL", "CI/CD"],
       github: "#",
       external: "#",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
     },
     {
-      title: "Fitness Tracking App",
-      description: "A mobile-responsive web application that allows users to track workouts, set fitness goals, and monitor progress over time.",
-      technologies: ["React", "Firebase", "Chart.js", "TailwindCSS"],
+      title: "Cloud-Based CMS",
+      description: "A scalable content management system deployed on AWS with integrated CI/CD pipeline, designed for high availability and performance optimization.",
+      technologies: ["Laravel", "AWS EC2", "AWS S3", "PostgreSQL", "GitHub Actions"],
       github: "#",
       external: "#",
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
     },
     {
-      title: "Content Management System",
-      description: "A custom CMS built for content creators with a focus on performance and ease of use. Features a WYSIWYG editor, media library, and API endpoints.",
-      technologies: ["Vue.js", "GraphQL", "PostgreSQL", "AWS"],
+      title: "Real-time Dashboard Application",
+      description: "Interactive analytics dashboard with real-time data visualization using ReactJS and Spring Boot backend, deployed with Kubernetes for scalability.",
+      technologies: ["React", "TypeScript", "Spring Boot", "Docker", "REST APIs"],
       github: "#",
       external: "#",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"

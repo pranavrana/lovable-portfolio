@@ -10,7 +10,7 @@ import Footer from '@/components/Footer';
 
 const Index: React.FC = () => {
   useEffect(() => {
-    document.title = "John Doe | Software Engineer";
+    document.title = "Pranav Rana | Full Stack Developer";
   }, []);
 
   return (

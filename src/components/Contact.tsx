@@ -1,7 +1,7 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { Mail, Github, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Github, Linkedin } from 'lucide-react';
 
 const Contact: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -40,14 +40,14 @@ const Contact: React.FC = () => {
       <h2 className="font-mono text-portfolio-accent text-base mb-4">04. What's Next?</h2>
       <h3 className="text-4xl md:text-5xl text-portfolio-lightest font-bold mb-6">Get In Touch</h3>
       <p className="mb-12 text-lg">
-        I'm currently looking for new opportunities. Whether you have a question or just want to say hi, 
-        I'll do my best to get back to you!
+        I'm currently open to new opportunities in the Toronto area. Whether you have a project in mind 
+        or just want to connect, I'll do my best to get back to you!
       </p>
       <Button 
         asChild
         className="bg-transparent hover:bg-portfolio-accent hover:bg-opacity-10 border border-portfolio-accent text-portfolio-accent text-base px-10 py-6 mb-14"
       >
-        <a href="mailto:hello@example.com">
+        <a href="mailto:pranavrana1258@gmail.com">
           Say Hello <Mail className="ml-2 h-4 w-4" />
         </a>
       </Button>
@@ -62,25 +62,17 @@ const Contact: React.FC = () => {
           <Github size={24} />
         </a>
         <a 
-          href="#" 
+          href="https://www.linkedin.com/in/pranavrana97/" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="text-portfolio-light hover:text-portfolio-accent transition-colors"
         >
           <Linkedin size={24} />
         </a>
-        <a 
-          href="#" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          className="text-portfolio-light hover:text-portfolio-accent transition-colors"
-        >
-          <Twitter size={24} />
-        </a>
       </div>
       
       <p className="font-mono text-sm text-center text-portfolio-light">
-        Designed & Built by John Doe
+        Designed & Built by Pranav Rana
       </p>
     </section>
   );

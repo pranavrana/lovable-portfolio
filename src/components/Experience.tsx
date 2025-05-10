@@ -30,39 +30,41 @@ const Experience: React.FC = () => {
 
   const jobs = [
     {
-      id: "acmecorp",
-      company: "ACME Corp",
-      title: "Senior Software Engineer",
-      period: "January 2022 - Present",
+      id: "nyusoft",
+      company: "Nyusoft Solutions LLP",
+      title: "Sr. Software Programmer",
+      period: "October 2019 - November 2022",
       achievements: [
-        "Led development of a React-based dashboard that improved client engagement by 40%",
-        "Architected and implemented a new API gateway resulting in 30% improved response times",
-        "Mentored 5 junior developers through structured code reviews and pair programming sessions",
-        "Revamped the CI/CD pipeline reducing deployment time from hours to minutes"
+        "Led the development of full-stack web applications using ReactJS, JavaScript, PHP (Laravel), Spring Boot and MySQL, aligning with business specifications and project timelines.",
+        "Designed and maintained RESTful APIs and integrated cloud services (AWS EC2, S3, RDS) to ensure seamless backend connectivity and scalability.",
+        "Played a key role in DevOps initiatives by implementing CI/CD pipelines (GitHub Actions), improving deployment reliability and consistency.",
+        "Designed and created databases, optimized SQL queries, and enhanced data retrieval performance.",
+        "Participated in Agile team ceremonies and collaborated across departments, demonstrating leadership and strong interpersonal communication skills."
       ]
     },
     {
-      id: "techstart",
-      company: "TechStart Inc",
-      title: "Frontend Developer",
-      period: "June 2019 - December 2021",
+      id: "pixometry",
+      company: "Pixometry Infosoft",
+      title: "Software Developer",
+      period: "October 2018 - October 2019",
       achievements: [
-        "Built responsive web applications using React, Redux, and TypeScript",
-        "Collaborated with UX designers to implement pixel-perfect interfaces",
-        "Optimized application performance resulting in 25% faster load times",
-        "Integrated RESTful APIs and implemented real-time features with WebSockets"
+        "Engineered interactive web solutions using ReactJS, Laravel, and JavaScript, based on detailed design specifications and client requirements.",
+        "Collaborated with design and QA teams to develop UI components and convert Figma mockups into production-ready code.",
+        "Demonstrated attention to detail while enhancing existing platforms, optimizing SQL queries, and refactoring legacy code.",
+        "Engaged in regular problem-solving discussions and peer reviews, fostering team growth and delivering customer-centric features.",
+        "Utilized Git, CI/CD pipelines, and AWS services in a DevOps culture to manage deployments and ensure high availability."
       ]
     },
     {
-      id: "webinnovate",
-      company: "WebInnovate",
-      title: "Web Developer",
-      period: "March 2017 - May 2019",
+      id: "webratna",
+      company: "Webratna LLP",
+      title: "SEO Specialist",
+      period: "May 2018 - September 2018",
       achievements: [
-        "Developed and maintained client websites using HTML, CSS, and JavaScript",
-        "Created custom WordPress themes and plugins for content-managed websites",
-        "Improved site accessibility to meet WCAG guidelines",
-        "Performed cross-browser testing and responsive design implementation"
+        "Conducted keyword research and implemented on-page SEO strategies to improve search rankings.",
+        "Optimized metadata, structured data, and technical SEO aspects for client websites.",
+        "Monitored and analyzed website performance using Google Analytics and Search Console.",
+        "Assisted in content optimization and link-building strategies to enhance organic traffic."
       ]
     }
   ];

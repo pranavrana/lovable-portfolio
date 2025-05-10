@@ -18,14 +18,15 @@ const Hero: React.FC = () => {
           Hi, my name is
         </h1>
         <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-portfolio-lightest mb-4 animate-fadeIn opacity-0" style={{ animationDelay: '200ms' }}>
-          John Doe.
+          Pranav Rana.
         </h2>
         <h3 className="text-3xl md:text-5xl lg:text-6xl font-bold text-portfolio-light mb-7 animate-fadeIn opacity-0" style={{ animationDelay: '300ms' }}>
-          I build things for the web.
+          I build things for the web and cloud.
         </h3>
         <p className="max-w-xl text-lg text-portfolio-light mb-12 animate-fadeIn opacity-0" style={{ animationDelay: '400ms' }}>
-          I'm a software engineer specializing in building (and occasionally designing) exceptional digital experiences. 
-          Currently, I'm focused on building accessible, user-centered products.
+          I'm a Full Stack Developer with over 4 years of experience in designing, developing, and maintaining 
+          scalable web applications using modern technologies including ReactJS, Next.js, TypeScript, PHP (Laravel), 
+          Java & Spring Boot, and AWS.
         </p>
         <div className="animate-fadeIn opacity-0" style={{ animationDelay: '500ms' }}>
           <Button 

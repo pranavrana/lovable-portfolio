@@ -28,14 +28,14 @@ const About: React.FC = () => {
   }, []);
 
   const skills = [
-    "JavaScript (ES6+)",
-    "TypeScript",
-    "React",
-    "Node.js",
-    "Express",
-    "MongoDB",
+    "React.js",
     "Next.js",
-    "TailwindCSS",
+    "TypeScript",
+    "PHP (Laravel)",
+    "Node.js",
+    "Spring Boot",
+    "AWS",
+    "MySQL/PostgreSQL",
   ];
 
   return (
@@ -50,17 +50,18 @@ const About: React.FC = () => {
       <div className="grid md:grid-cols-3 gap-10">
         <div className="md:col-span-2">
           <p className="mb-4">
-            Hello! I'm John, a software engineer who enjoys creating things that live on the internet. 
-            My interest in web development started back in 2010 when I decided to customize my Tumblr theme — turns out hacking 
-            together a custom reblog button taught me a lot about HTML & CSS!
+            Hello! I'm Pranav, a results-driven Full Stack Developer based in Toronto with over 4 years of hands-on experience in designing 
+            and developing web applications.
           </p>
           <p className="mb-4">
-            Fast-forward to today, and I've had the privilege of working at <span className="text-portfolio-accent">a startup</span>, 
-            <span className="text-portfolio-accent"> a large corporation</span>, and <span className="text-portfolio-accent">a student-led design studio</span>. 
-            My main focus these days is building accessible, inclusive products and digital experiences.
+            Throughout my career, I've worked at <span className="text-portfolio-accent">Nyusoft Solutions LLP</span> and 
+            <span className="text-portfolio-accent"> Pixometry Infosoft</span>, where I've built scalable applications using modern 
+            technologies spanning both front-end and back-end development.
           </p>
           <p className="mb-4">
-            I also recently launched a course that covers everything you need to build a web app with the React ecosystem.
+            I specialize in building both frontend and backend systems, optimizing database performance, and implementing CI/CD 
+            pipelines for efficient deployment. I'm recognized for strong leadership, solid analytical and problem-solving skills, 
+            and the ability to work collaboratively across cross-functional teams in Agile environments.
           </p>
           <p className="mb-8">Here are a few technologies I've been working with recently:</p>
           <ul className="grid grid-cols-2 gap-x-8 gap-y-2">
